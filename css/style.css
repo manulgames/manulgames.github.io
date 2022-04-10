@@ -1,0 +1,447 @@
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald/Oswald-Regular.eot');
+    src: url('../fonts/Oswald/Oswald-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Oswald/Oswald-Regular.svg#Oswald-Regular') format('svg'), url('../fonts/Oswald/Oswald-Regular.ttf') format('truetype'), url('../fonts/Oswald/Oswald-Regular.woff') format('woff'), url('../fonts/Oswald/Oswald-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../fonts/Roboto/Roboto-Regular.eot');
+    src: url('../fonts/Roboto/Roboto-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto/Roboto-Regular.svg#Roboto-Regular') format('svg'), url('../fonts/Roboto/Roboto-Regular.ttf') format('truetype'), url('../fonts/Roboto/Roboto-Regular.woff') format('woff'), url('../fonts/Roboto/Roboto-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Roboto-Italic';
+    src: url('../fonts/Roboto/Roboto-Italic.eot');
+    src: url('../fonts/Roboto/Roboto-Italic.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto/Roboto-Italic.svg#Roboto-Italic') format('svg'), url('../fonts/Roboto/Roboto-Italic.ttf') format('truetype'), url('../fonts/Roboto/Roboto-Italic.woff') format('woff'), url('../fonts/Roboto/Roboto-Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Roboto-Thin';
+    src: url('../fonts/Roboto/Roboto-Thin.eot');
+    src: url('../fonts/Roboto/Roboto-Thin.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto/Roboto-Thin.svg#Roboto-Thin') format('svg'), url('../fonts/Roboto/Roboto-Thin.ttf') format('truetype'), url('../fonts/Roboto/Roboto-Thin.woff') format('woff'), url('../fonts/Roboto/Roboto-Thin.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'RobotoCondensed-BoldItalic';
+    src: url('../fonts/Roboto/RobotoCondensed-BoldItalic.svg#RobotoCondensed-BoldItalic') format('svg'), url('../fonts/Roboto/RobotoCondensed-BoldItalic.ttf') format('truetype'), url('../fonts/Roboto/RobotoCondensed-BoldItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'Roboto-Regular', sans-serif;
+    font-weight: 300;
+    background: #1b1b1b;
+    color: #fff;
+    overflow-x: hidden;
+  }
+  
+  .wrap {
+    display: block;
+    margin: auto;
+    /* overflow-x: hidden; */
+  }
+  
+  
+  /* Header */
+  
+  header {
+    display: block;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  header a {
+    color: #fff;
+  }
+  
+  .logo-wrap {
+    background: url(../img/bad-cat-logo.svg);
+    position: relative;
+    width: 209px;
+    height: 127px;
+    left: 97px;
+    top: 0px;
+  }
+  
+  .tagline {
+    font-family: 'Roboto-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    position: absolute;
+    left: 45px;
+    top: 130px;
+  }
+  
+  .header-announce {
+    display: block;
+    margin: 5% auto;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F8F8F8;
+  }
+  
+  .header-announce h2 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 2px;
+  }
+  
+  .header-announce .breack {
+    margin-top: 10vh;
+  }
+  
+  .header-announce-arrow {
+    text-align: center;
+    margin-top: 15vh;
+  }
+  
+  .header-announce-arrow img {
+    width: 67px;
+    height: 67px;
+  }
+  
+  
+  /* Main */
+  
+  main {
+    display: block;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  #welcom {
+    display: block;
+    background: url(../img/bad-cat-logo_full.svg) no-repeat;
+    background-position: left 50% bottom 20%;
+    background-size: 30%;
+    height: 50vh;
+  }
+  
+  #welcom h2 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 71px;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    top: 34vh;
+    letter-spacing: 2px;
+  }
+  
+  
+  /* Footer */
+  
+  footer {
+    display: block;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .start-date {
+    height: 50vh;
+  }
+  
+  .start-wrap {
+    display: block;
+    margin: auto;
+    background: url(../img/bad-cat-logo-start.svg) no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 30%;
+    /* max-height: 351px; */
+    height: 40vh;
+  }
+  
+  .start-date h1 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 74px;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(200, 176, 53, 0.5);
+    margin-top: 50px;
+  }
+  
+  
+  /* .start-tagline {
+      display: block;
+      width: 361px;
+      height: 41px;
+      position: relative;
+      left: 172px;
+      top: 237px;
+      
+      font-family: 'Roboto-Regular';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 35px;
+      line-height: 41px;
+      color: #FFFFFF;
+      opacity: 0.5;
+  } */
+  
+  footer .poster {
+    height: 45vh;
+  }
+  
+  .follow h1 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 47px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 4vh;
+    letter-spacing: 2px;
+  }
+  
+  .follow .line {
+    display: block;
+    margin: auto;
+    width: 690px;
+    height: 2px;
+    background: #C8B035;
+  }
+  
+  .follow p {
+    display: block;
+    margin: auto;
+    margin-top: 27px;
+    font-family: 'Roboto-Thin';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  
+  .follow a {
+    display: block;
+    min-width: 200px;
+    max-width: 370px;
+    margin: auto;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 67px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-top: 27px;
+  }
+  
+  .follow a span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    float: left;
+    vertical-align: middle;
+    margin-top: 9px;
+    margin-left: 9px;
+  }
+  
+  .follow img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    float: left;
+    vertical-align: middle;
+  }
+  
+  .mobile {
+    display: none;
+  }
+  
+  .desktop {
+    display: block;
+  }
+  
+  
+  /* MEDIA */
+  
+  @media (max-width: 767px) {
+    /* Header */
+    .logo-wrap {
+      margin: auto;
+      left: unset;
+    }
+    .header-announce h2 {
+      margin: auto;
+      width: 90%;
+      font-size: 6vw;
+      line-height: 40px;
+    }
+    .header-announce-arrow {
+      margin-top: 5vh;
+    }
+    /* Main */
+    #welcom {
+      background-position: left 50% bottom 30%;
+      background-size: 40%;
+      height: 40vh;
+    }
+    #welcom h2 {
+      font-size: 6vw;
+      line-height: 40px;
+      top: 33vh;
+    }
+    /* Footer */
+    .start-date h1 {
+      margin: 0;
+      padding: 0;
+      margin-top: 2vh;
+      font-size: 5vh;
+      line-height: 55px;
+    }
+    .start-wrap {
+      background-size: 100%;
+      width: 50%;
+      margin: 5vh auto 0 auto;
+      height: 35%;
+      /* max-height: 351px; */
+      /* height: 40vh; */
+    }
+    /* .start-tagline {
+          width: 361px;
+          height: 41px;
+          left: 22vw;
+          top: 13vh;
+          font-size: 4vw;
+      } */
+    .follow h1 {
+      margin: auto;
+      width: 80%;
+      font-size: 5vw;
+      padding-top: 4vh;
+      line-height: 35px;
+    }
+    .follow .line {
+      margin-top: 10px;
+      width: 80%;
+    }
+    .follow p {
+      width: 80%;
+      margin-top: 27px;
+      font-size: 3.5vw;
+      line-height: 25px;
+    }
+    .follow a {
+      max-width: 300px;
+      min-width: 200px;
+      display: block;
+      margin: 10px auto;
+      font-size: 34px;
+      line-height: 67px;
+    }
+    .follow img {
+      margin-top: 15px;
+      width: 86px;
+      height: 60px;
+    }
+    .mobile {
+      display: block;
+    }
+    .desktop {
+      display: none;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* Header */
+    .header-announce h2 {
+      margin: auto;
+      width: 90%;
+      font-size: 5vw;
+      line-height: 60px;
+    }
+    .header-announce-arrow {
+      margin-top: 5vh;
+    }
+    /* Main */
+    #welcom {
+      background-position: left 50% bottom 30%;
+      background-size: 40%;
+      height: 50vh;
+    }
+    #welcom h2 {
+      font-size: 5vw;
+      line-height: 50px;
+      top: 35vh;
+    }
+    /* Footer */
+    .start-date h1 {
+      font-size: 5vh;
+    }
+    .start-wrap {
+      background-size: 100%;
+      width: 45%;
+      /* max-height: 351px; */
+      height: 30vh;
+    }
+    /* .start-tagline {
+          width: 361px;
+          height: 41px;
+          left: 128px;
+          top: 165px;
+          
+          font-size: 3vw;
+      } */
+    .follow a {
+      max-width: 300px;
+      min-width: 200px;
+      display: block;
+      margin: 20px auto;
+      font-size: 35px;
+      line-height: 67px;
+    }
+    .follow img {
+      width: 106px;
+      height: 80px;
+    }
+    .mobile {
+      display: none;
+    }
+    .desktop {
+      display: block;
+    }
+  }

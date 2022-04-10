@@ -1,0 +1,118 @@
+.poster {
+    display: block;
+    width: 100%;
+  }
+  
+  .poster-bg {
+    background: #2B2B2B;
+  }
+  
+  .poster .they h1,
+  .poster .we h1 {
+    font-family: 'RobotoCondensed-BoldItalic';
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 130px;
+    margin-left: auto;
+    order: 2;
+  }
+  
+  .poster .they h1 {
+    max-width: 240px;
+    min-width: 20px;
+    background: -o-linear-gradient(266.98deg, #AF0000 2.52%, rgba(255, 255, 255, 0.28) 109.83%);
+    background: linear-gradient(183.02deg, #AF0000 2.52%, rgba(255, 255, 255, 0.28) 109.83%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    /* text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+  }
+  
+  .poster .we h1 {
+    max-width: 198px;
+    min-width: 20px;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(37.5%, #C8B035), color-stop(104.87%, #DEDEDE));
+    background: -o-linear-gradient(top, #C8B035 37.5%, #DEDEDE 104.87%);
+    background: linear-gradient(180deg, #C8B035 37.5%, #DEDEDE 104.87%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    /* text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.1); */
+  }
+  
+  .poster p {
+    font-family: 'Roboto-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #F8F8F8;
+    order: 2;
+    margin: 15px 0 0 25px;
+  }
+  
+  .poster-wrap {
+    display: block;
+    max-width: 900px;
+    margin: auto;
+    padding: auto;
+    padding: 2% 0;
+  }
+  
+  .poster .they,
+  .poster .we {
+    padding: 2vh 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+  }
+  
+  @media (max-width: 767px) {
+    .poster {
+      position: absolute;
+      bottom: 0;
+    }
+    .poster-wrap {
+      display: block;
+      float: left;
+      margin: auto;
+    }
+    .poster .they h1,
+    .poster .we h1 {
+      font-size: 13vw;
+    }
+    .poster p {
+      width: 55%;
+      font-size: 2.7vw;
+      line-height: 22px;
+      margin: 0 0 0 15px;
+    }
+    .poster .they,
+    .poster .we {
+      width: 90%;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .poster {
+      height: 60vh;
+    }
+    .poster .they h1,
+    .poster .we h1 {
+      font-size: 12vw;
+    }
+    .poster p {
+      font-size: 3vw;
+    }
+    .poster .they,
+    .poster .we {
+      width: 90%;
+      padding-top: 1.5vh;
+    }
+  }

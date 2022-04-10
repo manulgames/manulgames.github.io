@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+   <meta name="viewport"
+      content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+   <link rel="stylesheet" href="css/reset.css">
+   <title>Manual Games</title>
+   <!-- Библиотека jQuery -->
+   <script src="libs/jquery/jquery.min.js"></script>
+   <script type="text/javascript" src="libs/onepage-scroll/jquery.onepage-scroll.min.js"></script>
+   <link href='libs/onepage-scroll/onepage-scroll.css' rel='stylesheet' type='text/css'>
+
+   <link rel="stylesheet" href="css/poster.css?v2=19">
+   <link rel="stylesheet" href="css/style.css?v2=19">
+   <script>
+      $(document).ready(function () {
+         $(".main").onepage_scroll({
+            sectionContainer: "section",
+            easing: "linear",
+
+            animationTime: 800,
+            pagination: true,
+            updateURL: false,
+            beforeMove: function (index) { },
+            afterMove: function (index) { },
+            loop: false,
+            keyboard: true,
+            responsiveFallback: false,
+
+            direction: "vertical"
+         });
+      });
+
+      $(document).ready(function () {
+         $(".onepage-pagination").hide();
+         $(".gotodown").click(function () {
+            $(".main").moveDown();
+         });
+      }); 
+   </script>
+
+   <!-- Yandex.Metrika counter -->
+   <script type="text/javascript"> (function (m, e, t, r, i, k, a) { m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) }; m[i].l = 1 * new Date(); k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a) })(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(88045529, "init", { clickmap: true, trackLinks: true, accurateTrackBounce: true, webvisor: true }); 
+   </script>
+   <noscript>
+      <div><img src="https://mc.yandex.ru/watch/88045529" style="position:absolute; left:-9999px;" alt="" /></div>
+   </noscript>
+   <!-- /Yandex.Metrika counter -->
+
+
+   <script type="text/javascript">!function () { var t = document.createElement("script"); t.type = "text/javascript", t.async = !0, t.src = '<https://vk.com/js/api/openapi.js?169', t.onload = function () { VK.Retargeting.Init("VK-RTRG-1310388-i3L8i"), VK.Retargeting.Hit() }, document.head.appendChild(t) }();</script>
+   <noscript>
+      <img src="https://vk.com/rtrg?p=VK-RTRG-1310388-i3L8i" style="position:fixed; left:-999px;" alt=""/>
+   </noscript>
+</head>
+
+<body>
+   <div id="fullpage" class="main wrap">
+      <section class="section">
+         <header>
+            <a href="">
+               <div class="logo-wrap">
+                  <span class="tagline">Наш маркетплейс игр</span>
+               </div>
+            </a>
+            <div class="header-announce desktop">
+               <h2 class="breack">
+                  STEAM и gog закрыли <br /> и ты не знаешь, что делать дальше?
+               </h2>
+               <h2 class="breack">
+                  мы решили сделать площадку, <br /> где твой заработок никто не сможет отнять
+               </h2>
+            </div>
+            <div class="header-announce mobile">
+               <h2 class="breack">
+                  STEAM и gog закрыли <br /> и ты не знаешь,<br /> что делать дальше?
+               </h2>
+               <h2 class="breack">
+                  мы решили сделать<br /> площадку, где твой<br /> заработок никто<br /> не сможет отнять
+               </h2>
+            </div>
+            <div class="header-announce-arrow">
+               <a class="gotodown" href="#">
+                  <img src="img/arrow.svg" alt="">
+               </a>
+            </div>
+         </header>
+      </section>
+      <section class="section">
+         <main>
+            <div id="welcom">
+               <h2 class="desktop">
+                  добро пожаловать в наш мир игр!
+               </h2>
+               <h2 class="mobile">
+                  добро пожаловать<br /> в наш мир игр!
+               </h2>
+            </div>
+            <div class="poster poster-bg">
+               <div class="poster-wrap">
+                  <div class="they">
+                     <h1>ОНИ</h1>
+                     <p>Бросили наших игроков на произвол судьбы <br />
+                        Забрали у нас то, что принадлежит нам по праву <br />
+                        Принесли свои правила туда, где нет места политике
+                     </p>
+                  </div>
+                  <div class="we">
+                     <h1>МЫ</h1>
+                     <p>Создаем платформу, где европейские и американские <br />
+                        решения не смогут отобрать честно купленный контент <br />
+                        у простых людей
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </main>
+      </section>
+      <section class="section">
+         <footer id="follow-us">
+            <div class="start-date">
+               <h1 class="desktop">стартуем в апреле 2022 года</h1>
+               <h1 class="mobile">стартуем<br /> в апреле<br /> 2022 года</h1>
+               <div class="start-wrap">
+                  <!-- <span class="start-tagline">
+                        Наш маркетплейс игр
+                        </span> -->
+               </div>
+            </div>
+            <div class="poster poster-bg">
+               <div class="poster-wrap">
+                  <div class="follow">
+                     <h1 class="desktop">Следи за нашим развитием в группе ВКонтакте</h1>
+                     <h1 class="mobile">Следи за нашим развитием в группе ВКонтакте</h1>
+                     <div class="line"></div>
+                     <p>Нам будет нужна твоя помощь, чтобы сделать наш
+                        лучший маркетплейс в РФ, который хрен кто отберет
+                     </p>
+                     <a href="https://vk.com/manulgamesru">
+                        <img src="img/vk.svg" width="126px" height="100px" alt="">
+                        <span>Подпишись</span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </footer>
+      </section>
+   </div>
+</body>
+
+</html>
